@@ -1,10 +1,10 @@
 public class BonusMilesService {
 
-    public int calculate(int a){
+    public int calculate(int price){
 
         short bonusCost = 20;
 
-        int result = a / bonusCost;
+        int result = price / bonusCost;
         return result;
     }
 }
